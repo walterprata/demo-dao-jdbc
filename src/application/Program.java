@@ -10,6 +10,6 @@ public class Program {
 		
 		Department obj = new Department(1, "Books");
 		Seller seller = new Seller(21, "bob", "bib@hdsusah", new Date(), 3000.0, obj);
-		System.out.println(seller);
+		System.out.println(seller );
 	}
 }
